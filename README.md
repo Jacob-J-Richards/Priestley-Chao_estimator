@@ -18,10 +18,10 @@ Key Features:
 
     Example function call:
 
-base_object <- new("estimator", h = 1, x = phi, max_xi= numeric(), y = gamma, 
-                   MPC = numeric(), input_argument = seq(-4, 4, length.out = 500))
-object <- PC.smoother(base_object)
-show(object)
+        base_object <- new("estimator", h = 1, x = phi, max_xi= numeric(), y = gamma, 
+                           MPC = numeric(), input_argument = seq(-4, 4, length.out = 500))
+        object <- PC.smoother(base_object)
+        show(object)
 
 
 Alternative Maximal Function:

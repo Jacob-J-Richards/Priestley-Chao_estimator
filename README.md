@@ -15,12 +15,14 @@ Key Features:
         The method also orders the input data (x, y) before applying the estimator to ensure proper spacing between the points.
         The result is visualized using a plot, and the first five values of the input arguments and corresponding MPC estimates are printed.
 
+
     Example function call:
 
 base_object <- new("estimator", h = 1, x = phi, max_xi= numeric(), y = gamma, 
                    MPC = numeric(), input_argument = seq(-4, 4, length.out = 500))
 object <- PC.smoother(base_object)
 show(object)
+
 
 Alternative Maximal Function:
 
@@ -32,13 +34,13 @@ Finding Maximal MPC Values:
     The find.max method runs the PC.smoother.maximal function 10,000 times to capture the maximal values of the MPC estimates.
     After running the simulation, it computes and prints the mean and standard deviation of the maximal MPC values (max_xi).
 
-Example function call sequence:
 
-r
+Example function call sequence:
 
     maximal_object <- new("estimator", h = 1, x = numeric(), max_xi = numeric(), y = numeric(), 
                           MPC = numeric(), input_argument = seq(-4, 4, length.out = 500))
     find.max(maximal_object)
+
 
 Simulation and Results:
 

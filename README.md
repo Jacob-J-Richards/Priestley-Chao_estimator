@@ -29,6 +29,12 @@ Base Function:
         object <- PC.smoother(base_object)
         show(object)
 
+        the results of the estimator 
+        ![alt text](https://github.com/Jacob-J-Richards/R_Priestley-Chao_estimator/blob/main/estimator.JPG)
+
+        the data set the estimator is evaluating on 
+        ![alt text](https://github.com/Jacob-J-Richards/R_Priestley-Chao_estimator/blob/main/data.JPG)
+
 
 Alternative Maximal Function:
 

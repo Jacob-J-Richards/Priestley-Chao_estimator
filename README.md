@@ -22,7 +22,7 @@ Base Function:
         noise <- rnorm(100,0,1)
         gamma <- cos(3*phi) + 0.1*noise
 
-        this is just cos(3x) with a little bit of randomness to see the estimator at word 
+        this is just cos(3x) with a little bit of randomness to see if the estimator can handle it
 
         base_object <- new("estimator", h = 1, x = phi, max_xi= numeric(), y = gamma, 
                            MPC = numeric(), input_argument = seq(-4, 4, length.out = 500))

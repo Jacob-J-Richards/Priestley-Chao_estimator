@@ -4,17 +4,17 @@ Key Features:
 Estimator Class:
 An S4 class, estimator, is defined to represent the Priestley-Chao estimator.
 The class contains attributes such as:
-    h: bandwidth parameter for smoothing.
-    x and y: input data values.
-    MPC: the main output, a set of Priestley-Chao estimates at specified input_argument values.
-    max_xi: stores the maximal values of the PDF estimates in the alternative function.
+        h: bandwidth parameter for smoothing.
+        x and y: input data values.
+        MPC: the main output, a set of Priestley-Chao estimates at specified input_argument values.
+        max_xi: stores the maximal values of the PDF estimates in the alternative function.
 
 Base Function:
-    The PC.smoother method approximates the PDF based on the input data.
-    It takes input values (x, y) and applies the Priestley-Chao formula, iterating over a set of input_argument values to compute the estimates (MPC).
-    The method also orders the input data (x, y) before applying the estimator to ensure proper spacing between the points.
-    The result is visualized using a plot, and the first five values of the input arguments and corresponding MPC estimates are printed.
-    
+        The PC.smoother method approximates the PDF based on the input data.
+        It takes input values (x, y) and applies the Priestley-Chao formula, iterating over a set of input_argument values to compute the estimates (MPC).
+        The method also orders the input data (x, y) before applying the estimator to ensure proper spacing between the points.
+        The result is visualized using a plot, and the first five values of the input arguments and corresponding MPC estimates are printed.
+        
 
     Example function call:
 

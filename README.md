@@ -32,6 +32,8 @@ Base Function:
 the results of the estimator 
 ![alt text](https://github.com/Jacob-J-Richards/R_Priestley-Chao_estimator/blob/main/estimator.JPG)
 
+you can see the estimator is not as good around x=0 because the noise population had a mean of zero 
+
 the data set the estimator is evaluating on 
 ![alt text](https://github.com/Jacob-J-Richards/R_Priestley-Chao_estimator/blob/main/data.JPG)
 

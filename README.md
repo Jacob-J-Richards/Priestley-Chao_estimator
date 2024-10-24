@@ -1,5 +1,5 @@
 # Priestley-Chao_estimator
-1.) Implimentation of the function 
+1.) Implimentation of the function (aproximate the probability density function from which the data set is sampled)
 
 2.) Example of implimentation 
 
